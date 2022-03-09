@@ -1,5 +1,11 @@
 # aws-nodejs-lambda-executer
-A project to execute your NodeJs lambda locally
+A project to execute your NodeJs lambda locally.
+
+
+## How it works
+I use ts-node to build the lambda code and execute it. I also simulate the enviroment with a .tmp folder that you can use to store/manipulate files during execution.
+
+To execute a lambda, you create a configuration file called Injetor. This file will contain informations to run the lambda.
 
 ## Configuration
 
