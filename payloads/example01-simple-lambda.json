@@ -1,0 +1,18 @@
+{
+  "functionHandlerPath": "../myproject/lambda/handlers/mySimpleLambda.ts",
+  "functionHandlerName": "main",
+  "awsAuth": {
+    "profile": "dev-profile"
+  },
+  "env": {
+    "DEBUG": true,
+    "AWS_REGION": "eu-west-1",
+    "AWS_PROFILE": "dev-profile",
+    "myDynamoTableName": "simple-test-dynamo-table",
+    "stage": "dev",
+    "authToken": "any-token"
+  },
+  "event": {
+    
+  }
+}
